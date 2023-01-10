@@ -19,7 +19,22 @@ _L 0x208C42C8 0x0875E70C
 _L 0x208C42DC 0x0875BC34
 ```
 
-### How to use it ?
+### Run it locally ?
+```
+git clone https://github.com/YumeT023/cwcheat-parser
+```
+
+```
+npm install
+```
+
+that's it (mess with it as you want)
+
+### using it as a node project dependency ?
+
+    npm install cwcheat-parser
+
+
 
 here is an example on how to use it
 
@@ -39,5 +54,5 @@ const astLike = parser.parse();
 
 ### Other Feature ?
 
-actually, `cwcheat-parser` expose the node, nodeType (types) that you can use
+actually, `cwcheat-parser` expose some APIs like Node, NodeType that you can use
 if you want to build a generator for it :D (would u ? )
