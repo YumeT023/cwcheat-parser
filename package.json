@@ -1,0 +1,25 @@
+{
+  "name": "cwcheat-parser",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "yume-saiko",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YumeT023/cwcheat-parser.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/YumeT023/cwcheat-parser.git",
+  "devDependencies": {
+    "@types/parsimmon": "^1.10.6",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "parsimmon": "^1.18.1"
+  }}

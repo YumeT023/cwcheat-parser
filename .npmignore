@@ -1,0 +1,6 @@
+# Ignore .ts files and allow .d.ts files
+*.ts
+!*.d.ts
+
+src
+build.sh

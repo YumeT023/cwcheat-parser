@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "lib": ["ES2020"],
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitUseStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "./src/**/spec"]
+}
