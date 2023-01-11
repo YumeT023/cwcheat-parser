@@ -1,6 +1,8 @@
 # CwCheat Parser
 
-cw-cheat parser is a package that allows you to parse Tekken 6 psp cw-cheat, like the following
+cw-cheat parser is a parser that lives on top of [Parsimmon](https://www.npmjs.com/package/parsimmon), which allows you to parse Tekken 6 psp cw-cheat.
+
+It basically looks like the following:
 
 ```
 _C1 GAN (main)
@@ -20,6 +22,7 @@ _L 0x208C42DC 0x0875BC34
 ```
 
 ### Run it locally ?
+
 ```
 git clone https://github.com/YumeT023/cwcheat-parser
 ```
@@ -32,9 +35,9 @@ that's it (mess with it as you want)
 
 ### using it as a node project dependency ?
 
+```
     npm install cwcheat-parser
-
-
+```
 
 here is an example on how to use it
 

@@ -1,6 +1,6 @@
 {
   "name": "cwcheat-parser",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "scripts": {
     "build": "tsc"
   },
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/YumeT023/cwcheat-parser.git",
   "devDependencies": {
-    "@types/parsimmon": "^1.10.6",
     "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "@types/parsimmon": "^1.10.6"
   },
   "dependencies": {
     "parsimmon": "^1.18.1"
