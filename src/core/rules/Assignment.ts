@@ -9,7 +9,7 @@ const LAssignment = $.seqObj<any>(["byte", Type], ["address", Address]);
 
 const Value = HexLen(8).tie();
 
-const RAssignment = $.seqObj<any>(["value", Value]);
+const RAssignment = $.seqObj<any>(["data", Value]);
 
 export const Assignment = (lang: Language) => {
   return Statement(
