@@ -2,5 +2,7 @@
 *.ts
 !*.d.ts
 
+.idea
+
 src
 build.sh
