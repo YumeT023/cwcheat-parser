@@ -1,9 +1,14 @@
 {
   "name": "cwcheat-parser",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "build": "tsc"
   },
+  "keywords": [
+    "parser",
+    "ast",
+    "typescript"
+  ],
   "author": "yume-saiko",
   "license": "MIT",
   "main": "dist/index.js",
@@ -11,6 +16,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/YumeT023/cwcheat-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YumeT023/cwcheat-parser/issues",
+    "email": "yumii.saiko@gmail.com"
   },
   "publishConfig": {
     "access": "public"
